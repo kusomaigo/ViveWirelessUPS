@@ -513,26 +513,6 @@ F 3 "~" V 4525 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 2700 4200 2750
-$Comp
-L dk_Transistors-Bipolar-BJT-Single:2N3906 Q1
-U 1 1 607F2B9D
-P 4350 3100
-F 0 "Q1" H 4538 3153 60  0000 L CNN
-F 1 "2N3906" H 4538 3047 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 4550 3300 60  0001 L CNN
-F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 4550 3400 60  0001 L CNN
-F 4 "2N3906CS-ND" H 4550 3500 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N3906" H 4550 3600 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 4550 3700 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 4550 3800 60  0001 L CNN "Family"
-F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 4550 3900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/central-semiconductor-corp/2N3906/2N3906CS-ND/4806878" H 4550 4000 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS PNP 40V TO-92" H 4550 4100 60  0001 L CNN "Description"
-F 11 "Central Semiconductor Corp" H 4550 4200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4550 4300 60  0001 L CNN "Status"
-	1    4350 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 2750 4450 2900
 Wire Wire Line
@@ -1408,4 +1388,15 @@ F 3 "" H 3850 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 3350 3850 3400
+$Comp
+L Transistor_FET:BS250 Q1
+U 1 1 60C69772
+P 4350 3100
+F 0 "Q1" H 4554 3146 50  0000 L CNN
+F 1 "BS250" H 4554 3055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4550 3025 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 4350 3100 50  0001 L CNN
+	1    4350 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
